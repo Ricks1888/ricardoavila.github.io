@@ -1,0 +1,46 @@
+.bio-cont h3 {
+  font-size: 22px;
+  text-align: center;
+  margin-top: 5%;
+  color: azure;
+}
+.bio-cont {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Cutive', serif;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  height: 90vh;
+}
+
+.bio-text {
+  line-height: 3rem;
+  font-size: 16px;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-top: 5%;
+  color: azure;
+}
+.bio-text span {
+  margin-right: 2%;
+  font-size: 18px;
+  color: rgba(240, 255, 255, 0.678);
+}
+@media (max-width: 500px) {
+  .bio-cont h3 {
+    margin-top: 0%;
+
+    font-size: 14px;
+  }
+  .bio-text {
+    margin-top: 2%;
+
+    line-height: 2rem;
+
+    font-size: 10px;
+  }
+  .bio-text span {
+    font-size: 14px;
+  }
+}

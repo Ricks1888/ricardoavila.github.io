@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive&display=swap');
+
+.titulo {
+  font-family: 'Cutive', serif;
+  color: azure;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+.Typewriter {
+  margin-right: 15%;
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Cutive', serif;
+  font-size: 19px;
+
+  color: azure;
+}
+.container1 {
+  height: 100vh;
+}
+@media (max-width: 500px) {
+  .Typewriter {
+    font-size: 14px;
+  }
+}

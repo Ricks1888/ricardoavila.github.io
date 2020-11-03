@@ -1,0 +1,38 @@
+.footer {
+  background-color: rgba(37, 37, 37, 0.247);
+  font-family: 'Cutive', serif;
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  text-align: center;
+  justify-items: end;
+  color: rgb(227, 229, 230);
+}
+.footer a {
+  margin-top: 3%;
+  color: cadetblue;
+  text-decoration: none;
+  transition: 0.5s ease-in;
+}
+.footer a:hover {
+  font-size: 17px;
+  color: rgb(9, 153, 158);
+}
+.footer h4 {
+  margin-top: 5%;
+}
+@media (max-width: 500px) {
+  .footer a {
+    font-size: 10px;
+  }
+  .footer a:hover {
+    font-size: 11px;
+  }
+  .footer h4 {
+    font-size: 14px;
+  }
+
+  .footer {
+    height: 20vh;
+  }
+}
